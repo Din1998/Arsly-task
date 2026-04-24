@@ -9,6 +9,7 @@ The focus is not just animation, but also:
 -  Premium UI/UX feel
 -  Performance optimization
 -  Clean and structured code
+-  W3 validation
 
 ---
 
