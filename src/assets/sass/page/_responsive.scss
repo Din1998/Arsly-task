@@ -1,0 +1,504 @@
+// xxl device =>
+
+
+@media (max-width:1699px) {
+    .section-content--wrap .section--title {
+        font-size: 90px;
+    }
+
+    .contact--section .title--wrap .title {
+        font-size: 90px;
+    }
+
+    .container-fluid {
+        padding: 0 75px;
+    }
+
+    .work--card .content--wrap {
+        padding: 120px 75px;
+    }
+
+    .work--card .content--wrap::before {
+        width: 626px;
+    }
+
+    .work--card .content--wrap::after {
+        width: 626px;
+    }
+
+    .service--card .thumb--wrap .thumb {
+        width: 412px;
+        height: 516px;
+    }
+
+    .contact--section .element-four {
+        width: 118px;
+    }
+
+    .contact--section .element-four .thumb--one {
+        width: 126px;
+    }
+
+    .contact--section .element-one {
+        width: 156px;
+    }
+
+    .contact--section .element-two {
+        width: 124px;
+    }
+
+    .contact--section .element-three {
+        width: 110px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+    .work--card .content--wrap::before {
+        width: 520px;
+    }
+
+    .work--card .content--wrap::after {
+        width: 520px;
+    }
+
+    .section-content--wrap .section--title {
+        font-size: 80px;
+    }
+
+    .contact--section .title--wrap .title {
+        font-size: 80px;
+    }
+
+    .service--card .content--wrap.pb-120 {
+        padding-bottom: 40px !important;
+    }
+
+    .service--card .right-content--wrap .title {
+        font-size: 52px !important;
+    }
+
+}
+
+@media (max-width: 1399px) {}
+
+@media (max-width:1366px) {
+    .section-content--wrap.one .section--title {
+        text-indent: 70px;
+        margin-bottom: 40px;
+    }
+
+    .work--card .content--wrap::before {
+        width: 558px;
+        height: 418px;
+    }
+
+    .work--card .content--wrap::after {
+        width: 558px;
+        height: 418px;
+    }
+
+    .contact--section .element-one {
+        width: 120px;
+    }
+
+    .contact--section .element-four .thumb--one {
+        width: 95px;
+    }
+
+    .contact--section .element-four {
+        width: 105px;
+    }
+
+    .contact--section .element-four .thumb--two {
+        bottom: 0%;
+    }
+
+    .contact--section .element-three {
+        width: 80px;
+    }
+
+    .contact--section .element-two {
+        width: 85px;
+    }
+
+    .contact--section .contact--info a {
+        font-size: 16px !important;
+    }
+
+    .contact--section .title--wrap {
+        margin-bottom: 10px;
+    }
+
+    .contact--section .contact--info {
+        margin-bottom: 20px;
+    }
+
+    .service--listing .thumb--sm {
+        width: 168px;
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 1299px) {
+    .service--card .thumb--wrap .thumb {
+        width: 338px;
+        height: 420px;
+    }
+
+    .service--card .thumb--wrap .number {
+        font-size: 56px;
+        margin-bottom: 72px;
+    }
+
+    .work--card .content--wrap::before {
+        width: 616px;
+        height: 418px;
+    }
+
+    .work--card .content--wrap::after {
+        width: 616px;
+        height: 418px;
+    }
+}
+
+
+@media (max-width:1199px) {
+    .btn--primary .text {
+        padding: 12px 32px 8px 32px;
+        font-size: 15px;
+    }
+
+    .btn--primary .circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-content--wrap.two .section--title {
+        text-indent: 0px;
+    }
+
+    .work--card .tag--wrap .tag a {
+        padding: 4px 16px;
+    }
+
+    .service--card .thumb--wrap .tag a {
+        padding: 4px 16px;
+    }
+
+    .work--card .content--wrap::before {
+        width: 616px;
+        height: 370px;
+    }
+
+    .work--card .content--wrap::after {
+        width: 616px;
+        height: 370px;
+    }
+
+    .work--card .content--wrap {
+        padding: 80px 40px;
+    }
+
+    .container-fluid {
+        padding: 0 40px;
+    }
+
+}
+
+
+
+// xl device =>
+@media (max-width: 1024px) {
+    .section-content--wrap.one .section--title {
+        text-indent: 70px;
+        margin-bottom: 10px;
+    }
+
+    .section-content--wrap .section--title {
+        font-size: 60px;
+    }
+
+    .contact--section .title--wrap .title {
+        font-size: 60px;
+    }
+
+    .contact--section .element-one {
+        width: 100px;
+    }
+
+    .contact--section .element-one {
+        left: 22%;
+        bottom: 12%;
+    }
+
+    .contact--section .element-four .thumb--two {
+        bottom: 20%;
+    }
+
+    .contact--section .element-four .thumb--one {
+        width: 85px;
+    }
+
+    .contact--section .element-four {
+        width: 80px;
+    }
+
+    .service--card .thumb--wrap .thumb {
+        width: 270px;
+        height: 372px;
+    }
+
+    .service--card .thumb--wrap .number {
+        margin-bottom: 40px;
+    }
+
+    .service--card .gap--48 {
+        gap: 30px !important;
+    }
+
+    .work--card .content--wrap::before {
+        display: none;
+    }
+
+    .work--card .content--wrap::after {
+        display: none;
+    }
+
+    .work--card .content--wrap {
+        padding: 20px 40px;
+        background-color: var(--black);
+    }
+
+    .work--card .thumb--wrap {
+        padding: 0 40px;
+        padding-bottom: 140px;
+        gap: 16px !important;
+    }
+
+    .section-content--wrap.one .heading--wrap .bar {
+        width: 70px;
+    }
+
+
+    .work--card .thumb--wrap {
+        display: none !important;
+    }
+
+
+    .thumb-wrap--in__mobile {
+        display: block !important;
+        padding: 0 40px;
+
+        .thumb.one {
+            height: 200px;
+        }
+
+        .thumb.two {
+            height: 420px;
+        }
+
+        .thumb.three {
+            height: 200px;
+        }
+    }
+
+    .work--card .content--wrap {
+        position: unset !important;
+    }
+
+
+
+
+}
+
+@media (max-width:1023px) {}
+
+
+// lg device =>
+@media (max-width: 998px) {}
+
+@media (max-width: 992px) {}
+
+
+
+@media (max-width: 991px) {
+    .service--card .right-content--wrap .title {
+        font-size: 42px !important;
+        text-align: start !important;
+        margin-bottom: 0 !important;
+    }
+
+    .service--card .description {
+        text-align: start !important;
+    }
+
+    .service--card .thumb--wrap .thumb {
+        width: 320px;
+        height: 370px;
+    }
+
+    .service--card .content--wrap.pb-120 {
+        padding-bottom: 0px !important;
+    }
+
+    .service--card .thumb--wrap .number {
+        margin-bottom: 10px;
+    }
+
+    .section-content--wrap.one {
+        margin-bottom: 48px;
+    }
+
+    .section-content--wrap.one .section--title {
+        text-indent: 0px;
+        margin-bottom: 0px;
+    }
+
+    .section-content--wrap .section--title {
+        font-size: 52px;
+    }
+
+    .work--card .tag--wrap .number {
+        font-size: 40px;
+    }
+
+    .work--card .tag--wrap .tag a {
+        font-size: 12px;
+    }
+
+    .service--card .thumb--wrap .tag a {
+        font-size: 12px;
+    }
+
+    .section-content--wrap.two .heading--wrap .bar--primary {
+        width: 180px;
+    }
+
+    .contact--section .heading--wrap .bar--primary {
+        width: 290px;
+    }
+
+    .contact--info.gap--40 {
+        gap: 12px !important;
+    }
+}
+
+
+
+// md device =>
+@media (max-width: 768px) {
+    .contact--section .element-four {
+        display: none;
+    }
+
+    .contact--section .element-three {
+        display: none;
+    }
+
+    .contact--section .element-two {
+        display: none;
+    }
+
+    .contact--section .element-one {
+        display: none;
+    }
+
+    .service--card .thumb--wrap {
+        flex-wrap: wrap;
+    }
+
+    .section-content--wrap .section--title {
+        font-size: 34px;
+    }
+
+    .contact--section .title--wrap .title {
+        font-size: 34px;
+    }
+
+    .service--card .thumb--wrap .thumb {
+        width: 100%;
+        height: 370px;
+    }
+
+    .work--card .tag--wrap .number {
+        font-size: 28px;
+    }
+
+    .service--card .thumb--wrap .number {
+        font-size: 28px;
+    }
+
+    .fs--36 {
+        font-size: 30px !important;
+    }
+
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width:740px) {}
+
+@media (max-width:700px) {}
+
+@media (max-width:630px) {}
+
+
+// sm device =>
+
+
+
+@media (max-width: 575px) {
+    .thumb-wrap--in__mobile .thumb.two {
+        height: 320px;
+    }
+
+    .thumb-wrap--in__mobile .thumb.one {
+        height: 160px;
+    }
+
+    .thumb-wrap--in__mobile .thumb.three {
+        height: 160px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    .thumb-wrap--in__mobile {
+        padding: 0 20px;
+    }
+
+    .work--card .content--wrap {
+        padding: 20px 20px;
+    }
+
+    .fs--18 {
+        font-size: 14px !important;
+    }
+
+    .service--card .right-content--wrap .title {
+        font-size: 32px !important;
+    }
+
+    .preloader .loading--text {
+        font-size: 70px;
+    }
+}
+
+
+@media(max-width:480px) {
+    .gap--12 {
+        gap: 8px !important;
+    }
+
+    .thumb-wrap--in__mobile .thumb.two {
+        height: 220px;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "wsatks",
+  "version": "0.01",
+  "description": "theam",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssbeautify": "^3.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-purgecss": "^7.0.2",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.85.1"
+  }
+}

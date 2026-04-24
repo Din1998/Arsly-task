@@ -1,0 +1,8 @@
+// Gap classes
+$gap-values: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56,58, 60, 64, 68, 72, 74,76,78,80,82,84,86,88,100;
+
+@each $gap in $gap-values {
+    .gap--#{$gap} {
+        gap: #{$gap}px !important;
+    }
+}

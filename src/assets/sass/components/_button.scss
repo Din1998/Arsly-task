@@ -1,0 +1,167 @@
+@use "../abstract/mixin" as *;
+
+/* Button Style */
+button {
+    border: none;
+    transition: .3s;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+.btn {
+    border-radius: 4px;
+    position: relative;
+
+    &.pills {
+        border-radius: 50px !important;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    @include slg-screen {
+        padding: 6px 10px;
+    }
+
+    @include msm-screen {
+        padding: 6px 7px;
+    }
+
+    &:hover,
+    &:focus {
+        color: hsl(var(--white));
+        border-color: transparent;
+    }
+
+    &--sm {
+        padding: 4px 12px;
+        font-size: 14px;
+
+        &:hover,
+        &:focus {
+            background-color: hsl(var(--white));
+            border: 1px solid transparent;
+            color: hsl(var(--white)) !important;
+        }
+
+        @include sm-screen {
+            padding: 5px 8px;
+        }
+    }
+
+    &--md {
+        padding: 13px 14px;
+        font-size: 16px;
+
+        @include sm-screen {
+            padding: 6px 12px;
+        }
+    }
+
+    &--lg {
+        padding: 14px 26px;
+        font-size: 16px !important;
+
+        @include sm-screen {
+            padding: 12px 14px;
+            font-size: 14px !important;
+        }
+    }
+
+}
+
+
+
+
+
+.btn--primary {
+    padding: 0;
+
+
+    .text {
+        padding: 18px 32px 14px 32px;
+        font-size: 16px;
+        border-radius: 50px;
+        line-height: 1.3;
+        color: var(--black);
+        text-align: center;
+        overflow: hidden;
+        z-index: 1;
+        position: relative;
+        background-color: var(--primary);
+        transition: 0.3s linear;
+        font-weight: 500;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: var(--white);
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            width: 101%;
+            height: 101%;
+            border-radius: 50px;
+            transition: all 0.475s;
+            z-index: -1;
+        }
+
+        &:hover {
+            color: var(--black);
+
+            &::before {
+                transform: scaleX(1);
+            }
+
+            box-shadow: 0px 7px 8px 0px var(--primary-l-300);
+        }
+
+    }
+
+    &.outline {
+        .text {
+            color: var(--white);
+            background-color: transparent;
+            border: 1px solid var(--white);
+
+            &::before {
+                background: var(--primary);
+            }
+
+            &:hover {
+                border: 1px solid var(--primary);
+                color: var(--black);
+            }
+
+        }
+    }
+
+    .circle {
+        width: 56px;
+        height: 56px;
+        transition: 0.2s linear;
+    }
+
+    &:hover {
+        .circle {
+            rotate: 45deg;
+            background-color: var(--primary) !important;
+        }
+
+        &.outline {
+            .circle {
+                background-color: var(--white) !important;
+            }
+        }
+    }
+}

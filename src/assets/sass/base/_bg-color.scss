@@ -1,0 +1,57 @@
+// solid background color
+.bg--white {
+    background-color: var(--white) !important;
+}
+
+.bg--black {
+    background-color: var(--black) !important;
+}
+
+.bg--dark {
+    background-color: var(--dark-bg) !important;
+}
+
+.bg--primary {
+    background-color: var(--primary) !important;
+}
+
+.bg--secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg--success {
+    background-color: var(--success) !important;
+}
+
+.bg--danger {
+    background-color: var(--danger) !important;
+}
+
+.bg--warning {
+    background-color: var(--warning) !important;
+}
+
+.bg--info {
+    background-color: var(--info) !important;
+}
+
+.section--bg {
+    background-color: var(--section-bg) !important;
+}
+
+.section-bg--two {
+    background-color: var(--body-bg-two) !important;
+}
+
+.bg--transparent {
+    background-color: transparent !important;
+}
+
+.body-bg--two{
+    background-color: var(--body-bg-two);
+}
+
+
+.portfolio-body--bg{
+    background-color: var(--body-bg-one);
+}

@@ -1,0 +1,105 @@
+@use "../abstract/mixin" as *;
+
+.custom--accordion {
+
+
+
+    .accordion-item {
+        background-color: transparent !important;
+        border: none;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        .accordion-header {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 100%;
+
+
+        }
+
+    }
+
+    .accordion-collapse {
+        width: 90%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) !important;
+        border-radius: 0px 0px 20px 20px !important;
+    }
+
+    .accordion-body {
+        color: var(--black);
+
+    }
+
+
+    .accordion-button {
+        color: var(--black) !important;
+        font-size: 16px;
+        padding: 20px 58px;
+        font-weight: 600;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 20px !important;
+        width: 100%;
+
+
+        @include msm-screen {
+            font-size: 18px;
+            padding-right: 30px;
+        }
+
+        &::after {
+            background-image: none;
+        }
+
+
+
+        &:not(.collapsed) {
+            color: var(--white);
+            background-color: var(--white) !important;
+
+
+            &::after {
+                transform: rotate(0deg);
+                background-image: none;
+                color: var(--black);
+            }
+        }
+
+    }
+
+}
+
+
+
+.custom--accordion .accordion-button[aria-expanded=false]::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f105";
+    color: var(--primary);
+    font-size: 20px;
+        font-weight: 800;
+}
+
+
+
+.custom--accordion .accordion-button[aria-expanded=true]::after, .custom--accordion1 .accordion-button[aria-expanded=false]::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 800;
+    content: "\f077";
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    width: 0 !important;
+    right: 16px;
+    color: var(--primary) !important;
+    font-size: 20px;
+}

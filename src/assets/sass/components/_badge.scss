@@ -1,0 +1,44 @@
+/* Badge Color and style */
+.badge{
+    
+    border-radius: 6px;
+    padding: 0px 8px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400 !important;
+
+    &--primary {
+        color: var(--primary) !important;
+        background-color: var(--primary-l-100) !important;
+    }
+
+    &--secondary {
+        color: var(--secondary) !important;
+        background-color: var(--secondary-l-100) !important;
+    }
+
+    &--success {
+        color: var(--success) !important;
+        background-color: var(--success-l-100) !important;
+    }
+
+    &--danger {
+        color: var(--danger) !important;
+        background-color: var(--danger-l-100) !important;
+    }
+
+    &--warning {
+        color: var(--warning) !important;
+        background-color: var(--warning-l-100) !important;
+    }
+
+    &--info {
+        color: var(--info) !important;
+        background-color: var(--info-l-100)!important;
+    }
+
+    &--violet {
+        color: var(--violet) !important;
+        background-color: var(--violet-l-100) !important;
+    }
+}

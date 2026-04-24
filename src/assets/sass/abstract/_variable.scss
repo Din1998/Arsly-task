@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Teko:wght@300..700&display=swap');
+
+
+:root,
+[data-theme="dark"] {
+
+  --heading-font: "Teko", sans-serif;
+  --body-font: "Instrument Sans", sans-serif;
+
+
+
+
+
+  --heading-one: clamp(1.5rem, 2.8vw + 1rem, 3.75rem);
+  --heading-two: clamp(1.375rem, 1.7vw + 1rem, 2.5rem);
+  --heading-three: clamp(1.25rem, .8vw + 1rem, 1.875rem);
+  --heading-four: clamp(1.125rem, .5vw + 1rem, 1.5rem);
+  --heading-five: clamp(1.0625rem, .3vw + 1rem, 1.25rem);
+  --heading-six: 1.2rem;
+
+  --body-bg: #121212;
+
+
+  --section-bg: #161616;
+
+
+  --body-color: #000000;
+  --card-bg: #2B3035;
+  --border-color: #3B4046;
+  --button-bg: #3B4046;
+
+
+  --white: #FFF;
+  --white-l-100: rgba(255, 255, 255, 0.1);
+  --white-l-200: rgba(255, 255, 255, 0.2);
+  --white-l-300: rgba(255, 255, 255, 0.3);
+  --white-l-400: rgba(255, 255, 255, 0.4);
+  --white-l-500: rgba(255, 255, 255, 0.5);
+  --white-l-600: rgba(255, 255, 255, 0.6);
+  --white-l-700: rgba(255, 255, 255, 0.7);
+  --white-l-800: rgba(255, 255, 255, 0.8);
+  --white-l-900: rgba(255, 255, 255, 0.9);
+
+
+
+
+
+  --black: #000;
+  --black-l-100: rgba(0, 0, 0, 0.1);
+  --black-l-200: rgba(0, 0, 0, 0.2);
+  --black-l-300: rgba(0, 0, 0, 0.3);
+  --black-l-400: rgba(0, 0, 0, 0.4);
+  --black-l-500: rgba(0, 0, 0, 0.5);
+  --black-l-600: rgba(0, 0, 0, 0.6);
+  --black-l-700: rgba(0, 0, 0, 0.7);
+  --black-l-800: rgba(0, 0, 0, 0.8);
+  --black-l-900: rgba(0, 0, 0, 0.9);
+
+
+
+  --primary: #B6E304;
+  --primary-l-100: rgba(182, 227, 4, 0.1);
+  --primary-l-200: rgba(182, 227, 4, 0.2);
+  --primary-l-300: rgba(182, 227, 4, 0.3);
+  --primary-l-400: rgba(182, 227, 4, 0.4);
+  --primary-l-500: rgba(182, 227, 4, 0.5);
+  --primary-l-600: rgba(182, 227, 4, 0.6);
+  --primary-l-700: rgba(182, 227, 4, 0.7);
+  --primary-l-800: rgba(182, 227, 4, 0.8);
+  --primary-l-900: rgba(182, 227, 4, 0.9);
+
+
+  --secondary: #016B4F;
+
+
+  --dark: #212529;
+  --dark-d-100: #1e2125;
+  --dark-d-200: #1a1e21;
+  --dark-d-300: #171a1d;
+  --dark-d-400: #141619;
+  --dark-d-500: #111315;
+  --dark-l-100: #373b3e;
+  --dark-l-200: #4d5154;
+  --dark-l-300: #646669;
+  --dark-l-400: #7a7c7f;
+  --dark-l-500: #909294;
+  --dark-l-600: #a6a8a9;
+  --dark-l-700: #bcbebf;
+  --dark-l-800: #d3d3d4;
+  --dark-l-900: #e9e9ea;
+
+
+  --success: #0ED016;
+  --success-d-100: #0dbb14;
+  --success-d-200: #0ba612;
+  --success-d-300: #0a920f;
+  --success-d-400: #087d0d;
+  --success-d-500: #07680b;
+
+  --success-l-100: #26d52d;
+  --success-l-200: #3ed945;
+  --success-l-300: #56de5c;
+  --success-l-400: #6ee373;
+  --success-l-500: #87e88b;
+  --success-l-600: #9feca2;
+  --success-l-700: #b7f1b9;
+  --success-l-800: #cff6d0;
+  --success-l-900: #e7fae8;
+
+
+  --danger: #f25640;
+  --danger-d-100: #da4d3a;
+  --danger-d-200: #c24533;
+  --danger-d-300: #a93c2d;
+  --danger-d-400: #913426;
+  --danger-d-500: #792b20;
+  --danger-l-100: #f36753;
+  --danger-l-200: #f57866;
+  --danger-l-300: #f68979;
+  --danger-l-400: #f79a8c;
+  --danger-l-500: #f9aba0;
+  --danger-l-600: #fabbb3;
+  --danger-l-700: #fbccc6;
+  --danger-l-800: #fcddd9;
+  --danger-l-900: #feeeec;
+
+
+  --warning: #dfa000;
+  --warning-d-100: #c99000;
+  --warning-d-200: #b28000;
+  --warning-d-300: #9c7000;
+  --warning-d-400: #866000;
+  --warning-d-500: #705000;
+  --warning-l-100: #e2aa1a;
+  --warning-l-200: #e5b333;
+  --warning-l-300: #e9bd4d;
+  --warning-l-400: #ecc666;
+  --warning-l-500: #efd080;
+  --warning-l-600: #f2d999;
+  --warning-l-700: #f5e3b3;
+  --warning-l-800: #f9eccc;
+  --warning-l-900: #fcf6e6;
+
+
+  --info: #0dcaf0;
+  --info-d-100: #0cb6d8;
+  --info-d-200: #0aa2c0;
+  --info-d-300: #098da8;
+  --info-d-400: #087990;
+  --info-d-500: #076578;
+  --info-l-100: #0dcaf0;
+  --info-l-200: #25cff2;
+  --info-l-300: #3dd5f3;
+  --info-l-400: #56daf5;
+  --info-l-500: #6edff6;
+
+
+
+}
+
+
+
+
+[data-theme="light"] {
+  --body-bg: #F9FAFB;
+  --body-color: #1A1A1A;
+  --card-bg: #FFFFFF;
+  --border-color: #E5E7EB;
+  --button-bg: #E5E7EB;
+  --white: #000;
+
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}

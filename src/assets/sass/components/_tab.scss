@@ -1,0 +1,38 @@
+.custom--tabs {
+
+
+    padding: 12px 0px;
+    border-radius: 12px;
+
+    li {
+        margin: 0px 8px 8px 0px;
+        .btn {
+            color: var(--primary) !important;
+            border: 1px solid var(--primary-l-800) !important;
+            padding: 8px 16px;
+            outline: none !important;
+        }
+
+        .btn-check:active+.btn,
+        .btn-check:checked+.btn,
+        .btn.active,
+        .btn.show,
+        .btn:active {
+            color: var(--white) !important;
+            background: var(--primary) !important;
+            font-weight: 600;
+            border: 1px solid var(--white) !important;
+        }
+
+        
+      
+    }
+
+    &.nav-tabs {
+        border-bottom: 1px solid var(--white) !important;
+        border-radius: 0px;
+        margin-bottom: 36px !important;
+    }
+
+
+}
